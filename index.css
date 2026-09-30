@@ -1,0 +1,54 @@
+/* Hero section */
+#Hero-wrapper {
+    margin-top: 3rem;
+}
+
+#Hero-section {
+    background-color: rgb(21, 88, 24);
+    color: white;
+
+    margin: auto;
+    text-align: center;
+
+    width: 40%;
+    padding: 2.5rem 1rem;
+    border-radius: 2.5%;
+}
+
+#Hero-section p {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Main */
+
+#Main-wrapper {
+    margin: 5rem 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+#imageContainer {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 80%;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+main .button {
+    text-align: center;
+    background-color: #A05C7B;
+    width: fit-content;
+}

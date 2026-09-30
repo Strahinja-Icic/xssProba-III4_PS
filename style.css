@@ -1,0 +1,134 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: sans-serif;
+    background-color: rgb(240, 231, 215);
+}
+
+.text-white {
+    color: white;
+}
+
+.background-white {
+    background-color: white;
+}
+
+.background-brown {
+    background-color: rgb(94, 44, 10);
+}
+
+.text-brown {
+    color: rgb(94, 44, 10);
+}
+
+.text-green {
+    color: #155818;
+}
+
+.button {
+    padding: 0.5rem 1rem;
+
+    text-decoration: none;
+    font-weight: 500;
+
+    border-radius: 10%;
+}
+
+/* Header */
+#Header-wrapper {
+    padding: 2rem 0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 1rem;
+}
+
+#links-header {
+    display: flex;
+
+    gap: 0.5rem;
+}
+
+#links-header a {
+    text-decoration: none;
+}
+
+#links-header a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+#copyright {
+    text-align: center;
+}
+
+#Footer-wrapper {
+    padding: 2rem 0;
+}
+
+#footer-up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-up div {
+    width: 33%;
+    text-align: center;
+    margin: auto;
+}
+
+#footer-up a {
+    text-decoration: none;
+}
+
+#footer-up a:hover {
+    text-decoration: underline;
+}
+
+#navigation-part div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+#logos-part {
+    display: flex;
+    flex-direction: column;
+}
+
+#logos-part div {
+    display: flex;
+    justify-content: center;
+
+    gap: 1rem;
+}
+
+.logo-navigation {
+    width: 2.5rem;
+}
+
+.logo-contact {
+    width: 1rem;
+}
+
+#contact-part {
+    display: flex;
+    flex-direction: column;
+}
+
+#kontakt-informacije div {
+    display: flex;
+    width: fit-content;
+
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.2rem;
+}
