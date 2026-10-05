@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cvećara Maslačići</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/contact.css">
 </head>
 
 <body>
@@ -26,27 +27,61 @@
         </header>
     </div>
 
-    <form action="">
-        <label for="Name-input">Ime</label>
-        <input type="text" id="Name-input" name="Name-input" required>
+    <div id="main-wrapper">
+        <main>
+            <div>
+                <h1 class="text-green">
+                    Kontaktirajte nas
+                </h1>
 
-        <label for="Name-input">Prezime</label>
-        <input type="text" id="Surname-input" name="Surname-input" required>
+                <p class="text-green">
+                    Pišite nam za porudžbine, pitanja ili posebne želje u vezi sa buketima
+                </p>
+            </div>
 
-        <label for="Email-input">E-pošta</label>
-        <input type="email" id="Email-input" name="Email-input" required>
+            <form action="">
+                <div id="contact-inputs">
+                    <div id="contact-left">
+                        <div>
+                            <label for="Topic-input"></label>
+                            <input type="text" id="Topic-input" name="Topic-input" required placeholder="Tema" class="background-green text-white">
+                        </div>
+    
+                        <div>
+                            <label for="Name-input"></label>
+                            <input type="text" id="Name-input" name="Name-input" required placeholder="Ime" class="background-green text-white">
+                        </div>
+    
+                        <div>
+                            <label for="Name-input"></label>
+                            <input type="text" id="Surname-input" name="Surname-input" required placeholder="Prezime" class="background-green text-white">
+                        </div>
+    
+                        <div>
+                            <label for="Email-input"></label>
+                            <input type="email" id="Email-input" name="Email-input" required placeholder="E-pošta" class="background-green text-white">
+                        </div>
+                    </div>
+    
+                    <div id="contact-right">
+                        <label for="Message-input"></label>
+                        <textarea name="Message-input" id="Message-input" cols="30" rows="10" required placeholder="Poruka" class="background-green text-white"></textarea>
+                    </div>
+                </div>
 
-        <label for="Message-input">Poruka</label>
-        <textarea name="Message-input" id="Message-input" cols="30" rows="10" required></textarea>
+                <div id="contact-buttons">
+                    <button id="submitButton" class="background-bourdeaux button text-white" type="submit">
+                        Pošalji
+                    </button>
+    
+                    <button id="resetButton" class="button background-red text-white" type="reset">
+                        Obriši unete podatke
+                    </button>
+                </div>
+            </form>
+        </main>
+    </div>
 
-        <button id="submitButton" type="submit">
-            Pošalji
-        </button>
-
-        <button id="resetButton" type="reset">
-            Obriši unete podatke
-        </button>
-    </form>
 
     <div id="Footer-wrapper" class="background-brown">
         <footer>
@@ -96,7 +131,7 @@
                                 Cara Dušana 87, Niš
                             </p>
                         </div>
-                        
+
                         <div>
                             <img src="./images/envelope.svg" alt="E-posta" class="logo-contact">
 
@@ -104,7 +139,7 @@
                                 cvecaramaslacici@gmail.com
                             </p>
                         </div>
-                        
+
                         <div>
                             <img src="./images/phone.svg" alt="Broj tel" class="logo-contact">
 
