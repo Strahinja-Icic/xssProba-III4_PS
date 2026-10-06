@@ -43,6 +43,7 @@ body, html {
     padding: 0.5rem 1rem;
 
     text-decoration: none;
+    cursor: pointer;
     font-weight: 500;
 
     border-radius: 10%;
@@ -117,6 +118,8 @@ header nav {
 #logos-part {
     display: flex;
     flex-direction: column;
+
+    gap: 0.5rem;
 }
 
 #logos-part div {

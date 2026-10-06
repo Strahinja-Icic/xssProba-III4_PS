@@ -12,12 +12,17 @@
 
     width: 40%;
     padding: 2.5rem 1rem;
+    padding-bottom: 3rem;
     border-radius: 2.5%;
 }
 
 #Hero-section p {
     margin-top: 1.5rem;
     margin-bottom: 2rem;
+}
+
+#Hero-section .button {
+    padding: 0.8rem 1rem;
 }
 
 /* Main */
@@ -50,4 +55,9 @@ main h2 {
 main .button {
     text-align: center;
     width: fit-content;
+    padding: 0.8rem 2rem;
+}
+
+main .button:hover {
+    background-color: #78475d;
 }

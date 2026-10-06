@@ -1,0 +1,27 @@
+#flippedImg {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+main {
+    text-align: center;
+}
+
+main p {
+    width: 50%;
+}
+
+#mainDiv {
+    display: flex;
+    justify-content: center;
+
+    gap: 1.5rem;
+}
+
+main img {
+    width: 7rem;
+}
+
+#main-wrapper {
+    padding: 6rem 0;
+}
